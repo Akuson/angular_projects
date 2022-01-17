@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+html
+{
+   background-color: rgba(5, 6, 49, 0.74);
+}
+/*Application widde styles */
+h1 {
+    color: rgb(243, 239, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+  h2, h3 {
+    color: rgb(248, 120, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: heavy;
+  }
+  body {
+    margin: 2em;
+  }
+  body, input[type="text"], button {
+    color: #A80000;
+    font-family: Cambria, Georgia, serif;
+  }
+  /* everywhere else */
+  * {
+    font-family: Arial, Helvetica, sans-serif;
+  }

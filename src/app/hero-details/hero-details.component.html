@@ -1,0 +1,16 @@
+<div *ngIf="hero">
+    <h2>{{hero.name | uppercase}} Database</h2>
+    <div style="margin-bottom: 10px;"><span style="color: rgb(243, 239, 6);font-weight: light;">ID: {{hero.id}}</span></div>
+    
+    <!-- The details property was added by me but server data does not have this property -->
+    <!--<div>
+        <label for="details">Details: </label>
+        <input id="details" [(ngModel)]="hero.details" placeholder="Details of {{hero.name}}"></div>
+    -->
+    <div>
+        <label for="name">Hero name: </label>
+        <input id="name" [(ngModel)]="hero.name" placeholder="Name">
+    </div>
+    <button (click)="save()">save</button>
+</div>
+<button (click)="goBack()">GO BACK</button>
